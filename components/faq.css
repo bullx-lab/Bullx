@@ -1,0 +1,222 @@
+.faq-accordion {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.faq-element1 {
+  width: 100%;
+  max-width: 800px;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+ 
+.faq-details1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.faq-text10 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 20px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 28px;
+}
+ 
+.faq-text12 {
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 28px;
+}
+ 
+.faq-text14 {
+  color: rgb(204, 204, 204);
+  width: 100%;
+  font-family: Poppins;
+  line-height: 24px;
+  user-select: text;
+}
+ 
+.faq-text16 {
+  color: #cccccc;
+  font-family: "Poppins";
+  line-height: 24px;
+}
+ 
+.faq-icon1 {
+  fill: var(--dl-color-gray-white);
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+ 
+.faq-element2 {
+  width: 100%;
+  max-width: 800px;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+ 
+.faq-details2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.faq-text18 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 28px;
+}
+ 
+.faq-text19 {
+  color: rgb(204, 204, 204);
+  width: 100%;
+  font-family: Poppins;
+  line-height: 28px;
+  user-select: text;
+}
+ 
+.faq-link {
+  text-decoration: underline;
+}
+ 
+.faq-text22 {
+  color: #cccccc;
+  font-family: "Poppins";
+  line-height: 28px;
+}
+ 
+.faq-icon3 {
+  fill: var(--dl-color-gray-white);
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+ 
+.faq-element3 {
+  width: 100%;
+  max-width: 800px;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+ 
+.faq-details3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.faq-text24 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 28px;
+}
+ 
+.faq-text25 {
+  color: rgb(204, 204, 204);
+  width: 100%;
+  font-family: "Poppins";
+  line-height: 28px;
+  user-select: text;
+}
+ 
+.faq-icon5 {
+  fill: var(--dl-color-gray-white);
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+ 
+.faq-element4 {
+  width: 100%;
+  max-width: 800px;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+ 
+.faq-details4 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.faq-text26 {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 28px;
+}
+ 
+.faq-text27 {
+  color: rgb(204, 204, 204);
+  width: 100%;
+  font-family: "Poppins";
+  line-height: 28px;
+  user-select: text;
+}
+ 
+.faq-icon7 {
+  fill: var(--dl-color-gray-white);
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+ 
+
+ 
+@media(max-width: 767px) {
+  .faq-text10 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .faq-text11 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .faq-text13 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .faq-text18 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .faq-text24 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .faq-text26 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
